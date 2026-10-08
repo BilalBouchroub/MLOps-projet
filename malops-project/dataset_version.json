@@ -1,0 +1,420 @@
+{
+  "current_version": "6.1",
+  "clearml_dataset_id": "6dbb8609528f462bbb002e14a0253b24",
+  "year_range": "1990\u20132027",
+  "total_files": 40,
+  "total_rows": 1715221,
+  "created_at": "2026-05-14T22:22:25.744684",
+  "files": {
+    "Doukkalla2024.csv": "9a7d9d324faa2f40956668b90dfd0fed",
+    "Maroc_ENV_Features_1990.csv": "1f265bbb321333af1c382c59aff3b4a1",
+    "Maroc_ENV_Features_1991.csv": "63e6cf9b6050c7a30c0f63d2210dbf73",
+    "Maroc_ENV_Features_1992.csv": "95d45ef558097541ac52a193830d1925",
+    "Maroc_ENV_Features_1993.csv": "90fec4f76da80a233f124f8c79498aee",
+    "Maroc_ENV_Features_1994.csv": "894b7d40115fd48084dd8e311d1fd99d",
+    "Maroc_ENV_Features_1995.csv": "59b93879b05d20fc2072273897125b9c",
+    "Maroc_ENV_Features_1996.csv": "b1d30fcf606763aab5c1c9db7e168170",
+    "Maroc_ENV_Features_1997.csv": "076e318399c039314d03508d0bb9ee44",
+    "Maroc_ENV_Features_1998.csv": "5d55763e650e229fcaae2a09206536b7",
+    "Maroc_ENV_Features_1999.csv": "1d3919c1d564013edda946dc0660b259",
+    "Maroc_ENV_Features_2000.csv": "ae0db801bbb004d9001e9e7fecfac18d",
+    "Maroc_ENV_Features_2001.csv": "26feb9faf2a79d2c69e2ef66bd2f2eb5",
+    "Maroc_ENV_Features_2002.csv": "bead4ccbb238363e94e22fad9746e818",
+    "Maroc_ENV_Features_2003.csv": "1a49e9eaf0f9e4bc61826237ac7f2a9c",
+    "Maroc_ENV_Features_2004.csv": "d852714f1fd69e861802b67214bca930",
+    "Maroc_ENV_Features_2005.csv": "9c9259abedb8a33367072f1db0b09e56",
+    "Maroc_ENV_Features_2006.csv": "e4d942e013e0e4958359450e20b4dd17",
+    "Maroc_ENV_Features_2007.csv": "91ca78653d6961d58ae4ed1ba1031834",
+    "Maroc_ENV_Features_2008.csv": "f9113dc3193f2fc07b21b0a14565ca5e",
+    "Maroc_ENV_Features_2009.csv": "81c2b741c7e5c5b1b5b5467fb60dcbd0",
+    "Maroc_ENV_Features_2010.csv": "37cce65b559c81dd8aeced866cd7ca2d",
+    "Maroc_ENV_Features_2011.csv": "798c5dd8239f889b00d0a8178f5b1248",
+    "Maroc_ENV_Features_2012.csv": "623dba9dfed1521a327902ad31f37733",
+    "Maroc_ENV_Features_2013.csv": "759c971f7d5f963ef2dafe65519651ac",
+    "Maroc_ENV_Features_2014.csv": "788cb56c3957808f0ab0b4429dd4af87",
+    "Maroc_ENV_Features_2015.csv": "020c46cd53464b5c48a7f735afa4cc32",
+    "Maroc_ENV_Features_2016.csv": "fa6bf4f7d6b15ddc74ca9e7ee51ba9a4",
+    "Maroc_ENV_Features_2017.csv": "585366775002d4b5986f3b786da27cc4",
+    "Maroc_ENV_Features_2018.csv": "0d5ea21a7a545ca60e31558dfdb3602c",
+    "Maroc_ENV_Features_2019.csv": "9b05a7fa0565de2293f38d818f68d3b6",
+    "Maroc_ENV_Features_2020.csv": "744fadafef4173ae15d21e4ad05e41e6",
+    "Maroc_ENV_Features_2021.csv": "fe3019937e1006ef955653fb4ebd30bc",
+    "Maroc_ENV_Features_2022.csv": "e53a9ef4b62cece23c20ae27212a61cd",
+    "Maroc_ENV_Features_2023.csv": "d44b2228d7ae2656ffa030755deefb6c",
+    "Maroc_ENV_Features_2026.csv": "f1c28cae4b3a3aad87ebca446dbdab69",
+    "Maroc_ENV_Features_2027.csv": "3414e035a6b70d7190d5b092cb6f2ff2",
+    "maroc_region_2023.csv": "bcb7aed40999199a24981501b10d6b5d",
+    "maroc_region_2025.csv": "c1fd01565756caedd07f314e64562be5",
+    "maroc_regions_2020.csv": "3477efe784990e648bb129cc52d68e77"
+  },
+  "file_details": [
+    {
+      "filename": "Doukkalla2024.csv",
+      "year": "2024",
+      "rows": 624,
+      "size_kb": 248,
+      "null_rate": 0.0,
+      "flags": [
+        "rows<1000"
+      ],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1990.csv",
+      "year": "1990",
+      "rows": 40523,
+      "size_kb": 9213,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1991.csv",
+      "year": "1991",
+      "rows": 29855,
+      "size_kb": 6833,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1992.csv",
+      "year": "1992",
+      "rows": 31647,
+      "size_kb": 7237,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1993.csv",
+      "year": "1993",
+      "rows": 30826,
+      "size_kb": 7075,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1994.csv",
+      "year": "1994",
+      "rows": 32822,
+      "size_kb": 7496,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1995.csv",
+      "year": "1995",
+      "rows": 36355,
+      "size_kb": 8334,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1996.csv",
+      "year": "1996",
+      "rows": 30666,
+      "size_kb": 7013,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1997.csv",
+      "year": "1997",
+      "rows": 30596,
+      "size_kb": 6995,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1998.csv",
+      "year": "1998",
+      "rows": 37469,
+      "size_kb": 8593,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_1999.csv",
+      "year": "1999",
+      "rows": 36070,
+      "size_kb": 8212,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2000.csv",
+      "year": "2000",
+      "rows": 51102,
+      "size_kb": 11674,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2001.csv",
+      "year": "2001",
+      "rows": 49835,
+      "size_kb": 11408,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2002.csv",
+      "year": "2002",
+      "rows": 54935,
+      "size_kb": 12573,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2003.csv",
+      "year": "2003",
+      "rows": 46551,
+      "size_kb": 10680,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2004.csv",
+      "year": "2004",
+      "rows": 45547,
+      "size_kb": 10405,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2005.csv",
+      "year": "2005",
+      "rows": 45196,
+      "size_kb": 10345,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2006.csv",
+      "year": "2006",
+      "rows": 46407,
+      "size_kb": 10582,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2007.csv",
+      "year": "2007",
+      "rows": 53984,
+      "size_kb": 12373,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2008.csv",
+      "year": "2008",
+      "rows": 41119,
+      "size_kb": 9403,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2009.csv",
+      "year": "2009",
+      "rows": 53139,
+      "size_kb": 12114,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2010.csv",
+      "year": "2010",
+      "rows": 47703,
+      "size_kb": 10902,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2011.csv",
+      "year": "2011",
+      "rows": 50078,
+      "size_kb": 11449,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2012.csv",
+      "year": "2012",
+      "rows": 39901,
+      "size_kb": 9107,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2013.csv",
+      "year": "2013",
+      "rows": 53966,
+      "size_kb": 12295,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2014.csv",
+      "year": "2014",
+      "rows": 58964,
+      "size_kb": 13475,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2015.csv",
+      "year": "2015",
+      "rows": 59089,
+      "size_kb": 13495,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2016.csv",
+      "year": "2016",
+      "rows": 59045,
+      "size_kb": 13491,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2017.csv",
+      "year": "2017",
+      "rows": 59414,
+      "size_kb": 13578,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2018.csv",
+      "year": "2018",
+      "rows": 58998,
+      "size_kb": 13479,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2019.csv",
+      "year": "2019",
+      "rows": 59397,
+      "size_kb": 13574,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2020.csv",
+      "year": "2020",
+      "rows": 59393,
+      "size_kb": 13571,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2021.csv",
+      "year": "2021",
+      "rows": 59212,
+      "size_kb": 13526,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2022.csv",
+      "year": "2022",
+      "rows": 57979,
+      "size_kb": 17204,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2023.csv",
+      "year": "2023",
+      "rows": 58568,
+      "size_kb": 16706,
+      "null_rate": 0.0967,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2026.csv",
+      "year": "2026",
+      "rows": 49835,
+      "size_kb": 9094,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "Maroc_ENV_Features_2027.csv",
+      "year": "2027",
+      "rows": 57979,
+      "size_kb": 16565,
+      "null_rate": 0.0,
+      "flags": [],
+      "region": null
+    },
+    {
+      "filename": "maroc_region_2023.csv",
+      "year": "2023",
+      "rows": 144,
+      "size_kb": 51,
+      "null_rate": 0.0,
+      "flags": [
+        "rows<1000"
+      ],
+      "region": null
+    },
+    {
+      "filename": "maroc_region_2025.csv",
+      "year": "2025",
+      "rows": 144,
+      "size_kb": 51,
+      "null_rate": 0.0,
+      "flags": [
+        "rows<1000"
+      ],
+      "region": null
+    },
+    {
+      "filename": "maroc_regions_2020.csv",
+      "year": "2020",
+      "rows": 144,
+      "size_kb": 51,
+      "null_rate": 0.0,
+      "flags": [
+        "rows<1000"
+      ],
+      "region": null
+    }
+  ]
+}

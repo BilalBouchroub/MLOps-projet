@@ -1,0 +1,61 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.0.3, pluggy-1.6.0 -- /home/bilalbouch/mlops-env/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/bilalbouch/malops-project
+plugins: anyio-4.13.0
+collecting ... collected 17 items
+
+tests/test_plateforme.py::TestAuthentification::test_login_admin_retourne_token 
+  ✓ Token reçu (151 caractères), rôle : admin
+PASSED
+tests/test_plateforme.py::TestAuthentification::test_login_mauvais_mot_de_passe_refuse 
+  ✓ Mauvais mot de passe rejeté (HTTP 401)
+PASSED
+tests/test_plateforme.py::TestAuthentification::test_acces_sans_token_refuse 
+  ✓ Accès sans token refusé (HTTP 401)
+PASSED
+tests/test_plateforme.py::TestUploadCSV::test_upload_csv_valide 
+  ✓ Upload accepté — 5 lignes, colonnes OK, fichier : test_upload_valide.csv
+PASSED
+tests/test_plateforme.py::TestUploadCSV::test_upload_csv_colonnes_manquantes_signale 
+  ✓ Colonnes manquantes détectées : ['MSI', 'Precipitation', 'SoilMoisture', 'ET0']
+PASSED
+tests/test_plateforme.py::TestUploadCSV::test_liste_datasets_disponibles 
+  ✓ 47 datasets disponibles — ex : Doukkalla2024.csv
+PASSED
+tests/test_plateforme.py::TestPredictionCWSI::test_prediction_sur_csv_valide 
+  ✓ CWSI moyen = 0.1268 | Verdict : ✅ Faible stress hydrique
+     Distribution — Faible : 100.0% | Modéré : 0.0% | Sévère : 0.0%
+PASSED
+tests/test_plateforme.py::TestPredictionCWSI::test_prediction_csv_incomplet_rejete 
+  ✓ CSV incomplet rejeté (HTTP 400) — Colonnes manquantes : ['MSI', 'Precipitation', 'SoilMoisture', 'ET0']. Requis : 
+PASSED
+tests/test_plateforme.py::TestRegistreModeles::test_registre_contient_modeles 
+  ✓ 10 version(s) dans le registre
+PASSED
+tests/test_plateforme.py::TestRegistreModeles::test_un_modele_en_production 
+  ✓ Modèle de production : RandomForest v10 — R²=0.9734
+PASSED
+tests/test_plateforme.py::TestRegistreModeles::test_metriques_modele_production 
+  ✓ Meilleur modèle : RandomForest — R²=0.9734, RMSE=0.055300
+PASSED
+tests/test_plateforme.py::TestRapportValidation::test_rapport_validation_disponible 
+  ✓ Rapport de validation disponible — champs : ['schema', 'stats', 'drift', 'last_updated', 'pipeline_meta']
+PASSED
+tests/test_plateforme.py::TestRapportValidation::test_rapport_contient_fichiers_analyses 
+  ✓ 40 fichier(s) analysé(s) — ex : Maroc_ENV_Features_1990.csv (40523 lignes, nulls=0.0%)
+PASSED
+tests/test_plateforme.py::TestRapportValidation::test_detection_drift_presente 
+  ✓ Drift analysé sur 7 feature(s) — 7 en drift détecté
+PASSED
+tests/test_plateforme.py::TestTelechargementDataset::test_telechargement_avec_token 
+  ✓ Fichier 'Doukkalla2024.csv' téléchargé — 248.3 KB
+PASSED
+tests/test_plateforme.py::TestTelechargementDataset::test_telechargement_sans_token_refuse 
+  ✓ Téléchargement sans token refusé (HTTP 401)
+PASSED
+tests/test_plateforme.py::TestTelechargementDataset::test_telechargement_fichier_inexistant_404 
+  ✓ Fichier inexistant → HTTP 404 correctement retourné
+PASSED
+
+============================== 17 passed in 1.11s ==============================

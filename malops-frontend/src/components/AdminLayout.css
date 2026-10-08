@@ -1,0 +1,457 @@
+.admin-shell {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 240px;
+  background: var(--sidebar-bg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  transition: width 0.25s ease;
+  overflow: hidden;
+}
+
+.admin-sidebar.collapsed {
+  width: 62px;
+}
+
+.sidebar-logo {
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  color: white;
+}
+
+.sidebar-logo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.admin-sidebar.collapsed .sidebar-logo-content {
+  justify-content: center;
+}
+
+.sidebar-logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-logo-text span:first-child {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.sidebar-logo-text span:last-child {
+  font-size: 0.65rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  opacity: 0.65;
+  margin-top: 2px;
+  text-transform: uppercase;
+}
+
+
+
+.sidebar-nav {
+  flex: 1;
+  padding: 0.75rem 0;
+}
+
+.sidebar-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.sidebar-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.8rem 1.5rem;
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  font-size: 0.925rem;
+  font-weight: 500;
+  transition: all 0.18s ease;
+  border-left: 3px solid transparent;
+  white-space: nowrap;
+}
+
+.admin-sidebar.collapsed .sidebar-link {
+  padding: 0.8rem 0;
+  justify-content: center;
+  border-left: 3px solid transparent;
+}
+
+.admin-sidebar.collapsed .sidebar-footer {
+  padding: 1rem 0.5rem;
+}
+
+.admin-sidebar.collapsed .sidebar-logout {
+  padding: 0.65rem 0;
+  justify-content: center;
+}
+
+.sidebar-link:hover {
+  background: var(--sidebar-hover);
+  color: white;
+  border-left-color: rgba(255, 255, 255, 0.4);
+}
+
+.sidebar-link.active {
+  background: var(--sidebar-hover);
+  color: white;
+  border-left-color: #95d5b2;
+}
+
+.sidebar-link svg {
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sidebar-logout {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.18s ease;
+}
+
+.sidebar-logout:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
+/* Main content area */
+.admin-main {
+  flex: 1;
+  overflow-y: auto;
+  background: var(--bg-color);
+  padding: 2rem;
+  position: relative;
+}
+
+/* Page header */
+.admin-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.admin-page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.admin-page-header p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.7rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* Pulse animation for RUNNING status */
+@keyframes pulse-ring {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.55; }
+  100% { opacity: 1; }
+}
+
+.status-badge.pulse {
+  animation: pulse-ring 1.4s ease-in-out infinite;
+}
+
+/* Inline role select */
+.role-select-inline {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  background: white;
+  cursor: pointer;
+  color: var(--text-main);
+  transition: border-color 0.15s;
+}
+
+.role-select-inline:focus {
+  outline: none;
+  border-color: var(--accent-green);
+  box-shadow: 0 0 0 2px rgba(64, 145, 108, 0.15);
+}
+
+/* Action buttons in tables */
+.btn-action {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+  margin-left: 0.4rem;
+}
+
+.btn-activate {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.btn-activate:hover {
+  background: #a7f3d0;
+}
+
+.btn-deactivate {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.btn-deactivate:hover {
+  background: #fde68a;
+}
+
+.btn-delete {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.btn-delete:hover {
+  background: #fecaca;
+}
+
+/* Form inputs inside modals */
+.modal-box .form-group label {
+  color: #374151;
+}
+
+.modal-box .form-group input,
+.modal-box .form-group select,
+.modal-box .form-group textarea {
+  color: #111827;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+}
+
+.modal-box .form-group input::placeholder {
+  color: #9ca3af;
+}
+
+.modal-box .form-group input:focus,
+.modal-box .form-group select:focus {
+  outline: none;
+  border-color: var(--accent-green);
+  box-shadow: 0 0 0 2px rgba(64, 145, 108, 0.15);
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 440px;
+  max-width: 95vw;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+.modal-box h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.btn-cancel {
+  padding: 0.6rem 1.2rem;
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: all 0.15s;
+}
+
+.btn-cancel:hover {
+  border-color: #bbb;
+  color: var(--text-main);
+}
+
+.btn-submit-green {
+  padding: 0.6rem 1.4rem;
+  background: var(--sidebar-bg);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.15s;
+}
+
+.btn-submit-green:hover {
+  background: var(--sidebar-hover);
+}
+
+.btn-submit-green:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Error/info alerts */
+.alert-error {
+  padding: 0.7rem 1rem;
+  background: #fee2e2;
+  color: #991b1b;
+  border-radius: 7px;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid #ef4444;
+}
+
+.alert-info {
+  padding: 0.7rem 1rem;
+  background: #dbeafe;
+  color: #1e40af;
+  border-radius: 7px;
+  font-size: 0.88rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid #3b82f6;
+}
+
+/* Metric cards for dashboard */
+.admin-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.admin-metric-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.admin-metric-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.metric-icon {
+  width: 52px;
+  height: 52px;
+  background: #ecfdf5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--sidebar-bg);
+}
+
+.metric-info .metric-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1;
+}
+
+.metric-info .metric-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.35rem;
+  letter-spacing: 0.5px;
+}
+
+/* Add new user button */
+.btn-add {
+  padding: 0.6rem 1.2rem;
+  background: var(--sidebar-bg);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.15s;
+}
+
+.btn-add:hover {
+  background: var(--sidebar-hover);
+}
+.sidebar-logo .welcome-text {
+  font-size: 14px;   /* diminue la taille */
+  color: #2a9d8f;    /* change la couleur (vert/bleu turquoise) */
+  font-weight: 500;  /* optionnel : un peu plus fin */
+}

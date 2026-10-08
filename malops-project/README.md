@@ -1,0 +1,2 @@
+# ML-DL-Plateforme-MLOps-de-prediction-du-stress-hydrique
+Ce dépôt regroupe les notebooks, scripts et modèles d’apprentissage automatique utilisés dans le projet. Il inclut le code d’entraînement, d’évaluation et de déploiement des modèles, ainsi que les pipelines MLOps nécessaires pour automatiser les workflows. - Contenu : notebooks Jupyter, scripts Python, datasets d’exemple, modèles sauvegardés.

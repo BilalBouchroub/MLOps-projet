@@ -1,0 +1,8 @@
+{
+  "version": "v13",
+  "model_name": "RandomForest",
+  "r2_test": 0.973404,
+  "model_path": "/home/bilalbouch/malops-project/model_registry/v13_RandomForest.pkl",
+  "scaler_path": "/home/bilalbouch/malops-project/model_registry/v13_scaler.pkl",
+  "promoted_at": "2026-05-14T22:22:11.271718"
+}

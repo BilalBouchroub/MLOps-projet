@@ -1,0 +1,26 @@
+{
+  "test_upload_valide.csv": {
+    "user_id": "b12bc751-d707-44c9-ade7-1905cb6007dc",
+    "username": "admin",
+    "uploaded_at": "2026-05-07T19:18:26.643360",
+    "region": "Maroc_test"
+  },
+  "test_invalid.csv": {
+    "user_id": "b12bc751-d707-44c9-ade7-1905cb6007dc",
+    "username": "admin",
+    "uploaded_at": "2026-05-07T19:18:26.658893",
+    "region": null
+  },
+  "maroc_region_2025.csv": {
+    "user_id": "5c2bee64-9891-40c6-bd91-a109c55f97a1",
+    "username": "imade",
+    "uploaded_at": "2026-05-16T19:24:04.154621",
+    "region": null
+  },
+  "maroc_regions_2019.csv": {
+    "user_id": "d6e616a3-565a-4edf-9e88-886e3800164b",
+    "username": "imrane",
+    "uploaded_at": "2026-05-14T21:59:35.809861",
+    "region": null
+  }
+}

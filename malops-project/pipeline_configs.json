@@ -1,0 +1,41 @@
+{
+  "pipeline-validation": {
+    "feat_ndvi": true,
+    "feat_ndwi": true,
+    "feat_msi": true,
+    "feat_lst": true,
+    "feat_precip": true,
+    "feat_soil": true,
+    "feat_et0": true,
+    "psi_threshold": 0.1,
+    "ks_pvalue": 0.05,
+    "outlier_method": "IQR",
+    "outlier_threshold": 3,
+    "autofix": false,
+    "strict_types": true,
+    "baseline": "last_validated",
+    "required_features": [
+      "NDVI",
+      "NDWI",
+      "MSI",
+      "LST",
+      "Precipitation",
+      "SoilMoisture",
+      "ET0"
+    ]
+  },
+  "pipeline-dataset": {
+    "start_year": 1990,
+    "end_year": 2027,
+    "region_nord": true,
+    "region_centre": true,
+    "region_sud": true,
+    "nulls_max": 20,
+    "min_rows": 1000,
+    "regions": [
+      "nord",
+      "centre",
+      "sud"
+    ]
+  }
+}

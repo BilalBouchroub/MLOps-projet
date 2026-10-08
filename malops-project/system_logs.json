@@ -1,0 +1,527 @@
+[
+  {
+    "timestamp": "2026-04-22T11:30:26.148911+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v1' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-04-22T11:30:30.227305+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v1' désactivé (staging)",
+    "log_type": "modèle désactivé"
+  },
+  {
+    "timestamp": "2026-04-25T13:14:52.314499+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'mohamed' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T13:21:41.104948+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'ahmed' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T13:22:16.771309+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'imane' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T13:22:24.818665+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'imane' modifié",
+    "log_type": "utilisateur modifié"
+  },
+  {
+    "timestamp": "2026-04-25T13:26:02.658133+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'poulga ' créé (rôle: admin)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T14:12:57.192207+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'poulga ' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-04-25T19:01:00.166129+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' créé",
+    "log_type": "projet créé"
+  },
+  {
+    "timestamp": "2026-04-25T19:42:36.359264+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'projet clearml hina' créé → ClearML: True",
+    "log_type": "projet créé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-25T19:46:47.732333+00:00",
+    "level": "WARNING",
+    "service": "Project Service",
+    "message": "Projet 'projet clearml hina' supprimé",
+    "log_type": "projet supprimé"
+  },
+  {
+    "timestamp": "2026-04-25T19:49:58.786935+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'bilal' créé → ClearML: True",
+    "log_type": "projet créé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-25T19:50:22.949362+00:00",
+    "level": "WARNING",
+    "service": "Project Service",
+    "message": "Projet 'bilal' supprimé → ClearML: True",
+    "log_type": "projet supprimé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-25T19:54:36.609288+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'marwa' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T19:55:57.397282+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'ilham' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T19:57:06.242880+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'bouch' créé (rôle: data_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T19:59:26.747170+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'BILAL' créé → ClearML: True",
+    "log_type": "projet créé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-25T22:23:58.396925+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'BILAL' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-04-25T22:25:13.297940+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'mouha' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-04-25T22:26:36.356548+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'BILAL' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-04-26T00:20:36.068852+00:00",
+    "level": "WARNING",
+    "service": "Project Service",
+    "message": "Projet 'BILAL' supprimé → ClearML: True",
+    "log_type": "projet supprimé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-26T00:25:25.760446+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' créé → ClearML: True",
+    "log_type": "projet créé + ClearML"
+  },
+  {
+    "timestamp": "2026-04-27T10:38:33.909530+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-04-27T10:40:34.271247+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-04-27T10:40:40.038227+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-04-29T09:53:39.819225+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v8' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-05T13:21:02.202406+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'soufyane' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-05T13:35:47.592382+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'soufyane' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-05T13:39:24.686534+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'sofyane' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-05T13:41:55.871823+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'sofyane' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-05T13:42:40.595623+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'sofyane' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-05T15:50:34.411422+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'zakkaria' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-05T15:51:56.338111+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T15:52:05.007024+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T15:52:14.411507+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T15:52:24.023270+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T15:52:36.638018+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T18:01:45.763503+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-05T18:02:12.848115+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T12:34:16.495255+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T12:34:23.519069+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T12:34:40.954450+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T12:36:02.494949+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T19:06:19.107174+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique maroc' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-06T19:06:24.777373+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-07T15:51:22.983603+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v9' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-07T15:51:40.931562+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v8' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-07T16:01:25.546300+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v9' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-07T16:01:35.463501+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v8' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-13T23:57:34.956543+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'zakkaria' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-13T23:58:35.047463+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'ZAKKARIA' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T00:02:15.203150+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'ZAKKARIA' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T00:03:00.387828+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'akkaria' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T00:09:08.175622+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'akkaria' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T00:09:45.510452+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'zakkaria' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T00:11:04.512411+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'bouch' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T00:11:43.306055+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'imade' créé (rôle: data_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T00:14:00.649264+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'ilham' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T00:14:27.947601+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'mouha' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T00:15:09.260772+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'mouha' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T19:50:15.280122+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'Bilal' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T19:50:23.935588+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'Bilal' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T19:53:55.149363+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'el jadida stress' modifié",
+    "log_type": "projet modifié"
+  },
+  {
+    "timestamp": "2026-05-14T19:55:26.681401+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'dauglass' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T20:29:38.230862+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'bilal ' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T20:29:47.128691+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'bilal ' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T20:41:03.053825+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'youness' créé (rôle: data_scientist)",
+    "log_type": "utilisateur créé"
+  },
+  {
+    "timestamp": "2026-05-14T20:41:08.689767+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'youness' modifié",
+    "log_type": "utilisateur modifié"
+  },
+  {
+    "timestamp": "2026-05-14T20:41:10.473195+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'youness' modifié",
+    "log_type": "utilisateur modifié"
+  },
+  {
+    "timestamp": "2026-05-14T20:41:12.517416+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'youness' modifié",
+    "log_type": "utilisateur modifié"
+  },
+  {
+    "timestamp": "2026-05-14T20:41:18.575268+00:00",
+    "level": "WARNING",
+    "service": "User Service",
+    "message": "Utilisateur 'youness' supprimé",
+    "log_type": "utilisateur supprimé"
+  },
+  {
+    "timestamp": "2026-05-14T20:42:32.371697+00:00",
+    "level": "INFO",
+    "service": "Project Service",
+    "message": "Projet 'Projet stress hydrique au maroc 2025' créé → ClearML: True",
+    "log_type": "projet créé + ClearML"
+  },
+  {
+    "timestamp": "2026-05-14T20:42:48.362143+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v11' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-14T20:42:53.544216+00:00",
+    "level": "INFO",
+    "service": "Model Registry",
+    "message": "Modèle version 'v12' activé en production",
+    "log_type": "modèle activé"
+  },
+  {
+    "timestamp": "2026-05-17T23:26:07.496500+00:00",
+    "level": "INFO",
+    "service": "User Service",
+    "message": "Utilisateur 'mou9awil' créé (rôle: mlops_engineer)",
+    "log_type": "utilisateur créé"
+  }
+]

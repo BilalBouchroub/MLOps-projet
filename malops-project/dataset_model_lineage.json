@@ -1,0 +1,154 @@
+{
+  "history": [
+    {
+      "dataset_version": "1.0",
+      "dataset_id": "a737e4d8b1ee4a339192756f08133846",
+      "model_in_prod": "Aucun mod\u00e8le en production",
+      "linked_at": "2026-04-01T00:19:48.380103"
+    },
+    {
+      "dataset_version": "2.0",
+      "dataset_id": "ec48bd1cf8004a26badb1d3c61bb8ab2",
+      "model_in_prod": "RandomForest v2 (R\u00b2=0.9696)",
+      "linked_at": "2026-04-01T22:29:39.681487"
+    },
+    {
+      "dataset_version": "2.1",
+      "dataset_id": "d81ef0fa51864be19fb10a44cdaae218",
+      "model_in_prod": "RandomForest v2 (R\u00b2=0.9696)",
+      "linked_at": "2026-04-01T22:36:19.409171"
+    },
+    {
+      "dataset_version": "2.2",
+      "dataset_id": "acde371e954147e4a8ff5a340aeec343",
+      "model_in_prod": "RandomForest v2 (R\u00b2=0.9696)",
+      "linked_at": "2026-04-04T20:36:27.753289"
+    },
+    {
+      "dataset_version": "2.3",
+      "dataset_id": "7941b15621274815b3bd2d36c7547fc2",
+      "model_in_prod": "RandomForest v2 (R\u00b2=0.9696)",
+      "linked_at": "2026-04-05T16:06:40.624595"
+    },
+    {
+      "dataset_version": "1.0",
+      "dataset_id": "81f28b9156b24bba875dd146efd46cdb",
+      "model_in_prod": "RandomForest v2 (R\u00b2=0.9696)",
+      "linked_at": "2026-04-18T02:05:25.164639"
+    },
+    {
+      "dataset_version": "1.1",
+      "dataset_id": "a28e4955536a4bd29446f26997f7c523",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-04-20T00:35:47.588402"
+    },
+    {
+      "dataset_version": "1.2",
+      "dataset_id": "e9ad699d4bf948938bcb3aeec1aa4318",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-04-20T00:38:49.798997"
+    },
+    {
+      "dataset_version": "2.0",
+      "dataset_id": "b6fdde3030184297b85f18d043e85b01",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-04-21T18:30:56.419352"
+    },
+    {
+      "dataset_version": "2.1",
+      "dataset_id": "25ddcdabd5c34172bcb2a96c24299861",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-04-21T21:45:11.334287"
+    },
+    {
+      "dataset_version": "3.0",
+      "dataset_id": "local-20260506-174751",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T17:47:51.975619"
+    },
+    {
+      "dataset_version": "3.1",
+      "dataset_id": "local-20260506-174805",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T17:48:05.322018"
+    },
+    {
+      "dataset_version": "3.2",
+      "dataset_id": "local-20260506-175843",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T17:58:43.668888"
+    },
+    {
+      "dataset_version": "3.3",
+      "dataset_id": "local-20260506-175856",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T17:58:56.751104"
+    },
+    {
+      "dataset_version": "3.4",
+      "dataset_id": "local-20260506-180448",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T18:04:48.081922"
+    },
+    {
+      "dataset_version": "3.5",
+      "dataset_id": "local-20260506-181826",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T18:18:26.286331"
+    },
+    {
+      "dataset_version": "3.6",
+      "dataset_id": "cf41a1be880045ba9011d0b422207e78",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-06T18:24:13.337872"
+    },
+    {
+      "dataset_version": "4.0",
+      "dataset_id": "68b0807ceece4b9d9cc930fed44c699e",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-07T16:41:50.016093"
+    },
+    {
+      "dataset_version": "4.1",
+      "dataset_id": "2a0b9d63065f4452a2736e225dc2be9d",
+      "model_in_prod": "RandomForest v8 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-07T17:02:45.668076"
+    },
+    {
+      "dataset_version": "4.2",
+      "dataset_id": "2b4a86ca90ef48d9a773970462d04d80",
+      "model_in_prod": "RandomForest v10 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-10T21:29:50.296599"
+    },
+    {
+      "dataset_version": "4.3",
+      "dataset_id": "ef82957081b24a7da060d1a813c37636",
+      "model_in_prod": "RandomForest v10 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-12T22:26:30.469029"
+    },
+    {
+      "dataset_version": "4.4",
+      "dataset_id": "da6db647351a4194b39738b1dcecf2c5",
+      "model_in_prod": "RandomForest v11 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-12T22:35:06.277839"
+    },
+    {
+      "dataset_version": "5.0",
+      "dataset_id": "3d0b7082682049daa2e93c1116ed86fd",
+      "model_in_prod": "RandomForest v12 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-14T21:45:28.457171"
+    },
+    {
+      "dataset_version": "6.0",
+      "dataset_id": "e0a65bd5b11e4e4c9779dec40c920294",
+      "model_in_prod": "RandomForest v12 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-14T22:00:13.956684"
+    },
+    {
+      "dataset_version": "6.1",
+      "dataset_id": "6dbb8609528f462bbb002e14a0253b24",
+      "model_in_prod": "RandomForest v13 (R\u00b2=0.9734)",
+      "linked_at": "2026-05-14T22:22:25.747029"
+    }
+  ]
+}

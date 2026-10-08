@@ -1,0 +1,15 @@
+{
+  "model_drift": true,
+  "ref_cwsi_mean": 0.629396,
+  "live_cwsi_mean": 0.49055,
+  "mean_shift": 0.138846,
+  "ks_stat": 0.266,
+  "ks_pval": 0.004546,
+  "live_stress_dist": {
+    "Stress l\u00e9ger": 105,
+    "Stress extr\u00eame": 104,
+    "Stress mod\u00e9r\u00e9": 103,
+    "Pas de stress": 102,
+    "Stress s\u00e9v\u00e8re": 86
+  }
+}

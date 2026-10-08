@@ -1,0 +1,26 @@
+{
+  "AdaBoost": {
+    "r2": 0.964342,
+    "rmse": 0.064032,
+    "mae": 0.052449,
+    "file": "model_AdaBoost.pkl"
+  },
+  "LightGBM": {
+    "r2": 0.963214,
+    "rmse": 0.065037,
+    "mae": 0.045858,
+    "file": "model_LightGBM.pkl"
+  },
+  "RandomForest": {
+    "r2": 0.973404,
+    "rmse": 0.0553,
+    "mae": 0.035083,
+    "file": "model_RandomForest.pkl"
+  },
+  "XGBoost": {
+    "r2": 0.963549,
+    "rmse": 0.064741,
+    "mae": 0.045241,
+    "file": "model_XGBoost.pkl"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Tanger", "name_fr": "Tanger" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-6.3,35.5],[-5.0,35.5],[-5.0,36.05],[-6.3,36.05],[-6.3,35.5]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tétouan", "name_fr": "Tétouan" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-5.7,35.0],[-4.8,35.0],[-4.8,35.8],[-5.7,35.8],[-5.7,35.0]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Kénitra", "name_fr": "Kénitra" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-6.7,33.9],[-6.0,33.9],[-6.0,34.9],[-6.7,34.9],[-6.7,33.9]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Rabat", "name_fr": "Rabat" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-7.1,33.8],[-6.5,33.8],[-6.5,34.3],[-7.1,34.3],[-7.1,33.8]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Khémisset", "name_fr": "Khémisset" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-6.6,33.4],[-5.7,33.4],[-5.7,34.2],[-6.6,34.2],[-6.6,33.4]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Meknès", "name_fr": "Meknès" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-5.8,33.5],[-5.1,33.5],[-5.1,34.2],[-5.8,34.2],[-5.8,33.5]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Fès", "name_fr": "Fès" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-5.2,33.7],[-4.5,33.7],[-4.5,34.4],[-5.2,34.4],[-5.2,33.7]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Oujda", "name_fr": "Oujda" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-3.0,34.0],[-1.5,34.0],[-1.5,35.0],[-3.0,35.0],[-3.0,34.0]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Casablanca", "name_fr": "Casablanca" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-7.8,33.2],[-7.0,33.2],[-7.0,33.8],[-7.8,33.8],[-7.8,33.2]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Settat", "name_fr": "Settat" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-7.6,32.6],[-6.8,32.6],[-6.8,33.3],[-7.6,33.3],[-7.6,32.6]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "El Jadida", "name_fr": "El Jadida" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-9.0,32.8],[-8.0,32.8],[-8.0,33.5],[-9.0,33.5],[-9.0,32.8]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Doukkala", "name_fr": "Doukkala" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-9.2,32.4],[-7.7,32.4],[-7.7,33.6],[-9.2,33.6],[-9.2,32.4]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Safi", "name_fr": "Safi" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-9.6,31.7],[-8.6,31.7],[-8.6,32.6],[-9.6,32.6],[-9.6,31.7]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Beni Mellal", "name_fr": "Beni Mellal" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-7.0,31.8],[-5.7,31.8],[-5.7,32.9],[-7.0,32.9],[-7.0,31.8]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Marrakech", "name_fr": "Marrakech" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-9.0,30.9],[-7.2,30.9],[-7.2,32.0],[-9.0,32.0],[-9.0,30.9]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Agadir", "name_fr": "Agadir" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-10.1,29.8],[-9.0,29.8],[-9.0,30.8],[-10.1,30.8],[-10.1,29.8]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Tiznit", "name_fr": "Tiznit" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-10.1,29.0],[-9.0,29.0],[-9.0,29.9],[-10.1,29.9],[-10.1,29.0]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Ouarzazate", "name_fr": "Ouarzazate" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-7.6,30.0],[-5.5,30.0],[-5.5,31.2],[-7.6,31.2],[-7.6,30.0]
+      ]]}
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Errachidia", "name_fr": "Errachidia" },
+      "geometry": { "type": "Polygon", "coordinates": [[
+        [-5.5,30.8],[-3.2,30.8],[-3.2,32.3],[-5.5,32.3],[-5.5,30.8]
+      ]]}
+    }
+  ]
+}

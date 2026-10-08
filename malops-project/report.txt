@@ -1,0 +1,9 @@
+==================================================
+   MALOPS - RAPPORT DE VALIDATION
+==================================================
+
+Schema rapport : /home/bilalbouch/malops-project/validation_schema.json
+Stats rapport  : /home/bilalbouch/malops-project/validation_stats.json
+Drift rapport  : /home/bilalbouch/malops-project/validation_drift.json
+
+Validation terminée avec succès.

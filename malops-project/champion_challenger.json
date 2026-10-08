@@ -1,0 +1,13 @@
+{
+  "challenger_name": "RandomForest",
+  "challenger_r2": 0.973404,
+  "champion_name": "RandomForest",
+  "champion_r2": 0.973404,
+  "decision": "PROMOTE",
+  "all_scores": {
+    "AdaBoost": 0.964342,
+    "LightGBM": 0.963214,
+    "RandomForest": 0.973404,
+    "XGBoost": 0.963549
+  }
+}

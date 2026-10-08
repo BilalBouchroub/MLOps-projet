@@ -1,0 +1,49 @@
+{
+  "drifted_features": [
+    "NDVI",
+    "NDWI",
+    "MSI",
+    "LST",
+    "Precipitation",
+    "SoilMoisture",
+    "ET0"
+  ],
+  "drift_results": {
+    "NDVI": {
+      "psi": 11.41972,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "NDWI": {
+      "psi": 1.734778,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "MSI": {
+      "psi": 0.381389,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "LST": {
+      "psi": 9.075809,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "Precipitation": {
+      "psi": 3.782241,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "SoilMoisture": {
+      "psi": 2.468452,
+      "ks_pval": 0.0,
+      "has_drift": true
+    },
+    "ET0": {
+      "psi": 10.491348,
+      "ks_pval": 0.0,
+      "has_drift": true
+    }
+  },
+  "n_live_samples": 500
+}

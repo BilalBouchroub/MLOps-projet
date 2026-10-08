@@ -1,0 +1,28 @@
+
+> MLOps-frontend@0.1.0 test
+> react-scripts test --watchAll=false --verbose --testPathPattern=PlatformTests
+
+PASS src/pages/scientist/PlatformTests.test.js
+  TEST 1 — ModelComparison : chargement et affichage des modèles
+    ✓ affiche les 4 modèles entraînés dans le tableau des performances (198 ms)
+    ✓ met en évidence le meilleur modèle avec le badge "Best" et le statut Production (46 ms)
+  TEST 2 — ModelComparison : règle métier MAX_COMPARE = 3
+    ✓ auto-sélectionne les 3 premiers modèles et laisse le 4ème non coché (61 ms)
+    ✓ empêche la sélection d'un 4ème modèle quand le maximum est déjà atteint (81 ms)
+  TEST 3 — ModelComparison : gestion dynamique de la sélection
+    ✓ permet de décocher un modèle sélectionné (61 ms)
+    ✓ affiche un message d'invite quand aucun modèle n'est sélectionné (72 ms)
+  TEST 4 — OrchestratorWizard : navigation pas-à-pas
+    ✓ démarre à l'étape 1 (Dataset) et avance à l'étape 2 (Validation) via le bouton Suivant (69 ms)
+    ✓ le bouton Précédent est désactivé à la première étape (42 ms)
+  TEST 5 — OrchestratorWizard : skip d'étapes et résumé
+    ✓ le bouton Skip avance à l'étape suivante sans appeler l'API de sauvegarde (44 ms)
+    ✓ atteint l'écran de résumé & lancement après avoir skippé les 7 étapes (237 ms)
+  TEST 6 — OrchestratorWizard : réinitialisation complète
+    ✓ le bouton Recommencer ramène à l'étape 1 depuis l'étape 3 (123 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       11 passed, 11 total
+Snapshots:   0 total
+Time:        1.921 s, estimated 3 s
+Ran all test suites matching /PlatformTests/i.

@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+
+/* ── Page background ── */
+.page-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 35% 50%, #1a3a2a 0%, #0d2818 55%, #060f09 100%);
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── Carte principale ── */
+.login-box {
+  display: flex;
+  width: 100%;
+  max-width: 1020px;
+  background: #0a1f11;
+  border-radius: 28px;
+  padding: 0.75rem;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6);
+  min-height: 620px;
+  box-sizing: border-box;
+}
+
+/* ══ CÔTÉ GAUCHE — image ══ */
+.login-left {
+  flex: 0 0 38%;
+  max-width: 38%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Image de fond plein cadre */
+.left-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+/* Overlay dégradé vert sombre */
+.left-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(13, 40, 24, 0.35) 0%,
+    rgba(13, 40, 24, 0.55) 45%,
+    rgba(13, 40, 24, 0.92) 100%
+  );
+}
+
+/* Contenu texte sur l'image */
+.left-content {
+  position: relative;
+  z-index: 1;
+  padding: 2.5rem 2.5rem 2.5rem;
+  color: white;
+}
+
+/* Badge animé */
+.left-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(149, 213, 178, 0.13);
+  border: 1px solid rgba(149, 213, 178, 0.3);
+  border-radius: 30px;
+  padding: 0.28rem 0.85rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #95d5b2;
+}
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #52b788;
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+.left-content h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.2;
+  margin: 0 0 0.85rem;
+  color: white;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #52b788, #95d5b2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.left-content p {
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+  max-width: 300px;
+}
+
+/* Stats */
+.left-stats {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.stat-item { text-align: left; }
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #95d5b2;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 3px;
+}
+
+/* ══ CÔTÉ DROIT — formulaire ══ */
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 3.5rem;
+  box-sizing: border-box;
+}
+
+.right-inner {
+  width: 100%;
+  max-width: 360px;
+}
+
+/* Logo mobile (masqué sur desktop) */
+.mobile-logo {
+  display: none;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 2rem;
+}
+
+.mobile-logo .logo-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #52b788, #40916c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-logo span {
+  color: white;
+  font-weight: 800;
+  font-size: 1.05rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Bouton retour — fixé en haut à droite */
+.back-btn {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.5rem;
+  z-index: 999;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(13, 40, 24, 0.85);
+  border: 1.5px solid rgba(82, 183, 136, 0.45);
+  border-radius: 10px;
+  color: #95d5b2;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  transition: color 0.2s, border-color 0.2s, background 0.2s, box-shadow 0.2s;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+}
+.back-btn:hover {
+  color: #52b788;
+  border-color: #52b788;
+  background: rgba(82, 183, 136, 0.12);
+  box-shadow: 0 6px 22px rgba(82, 183, 136, 0.2);
+}
+
+/* En-tête formulaire */
+.form-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.form-header h1 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 0.55rem;
+  letter-spacing: -0.3px;
+}
+
+.form-header p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Alerte erreur */
+.error-alert {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.25rem;
+  color: #fca5a5;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* Champs */
+.form-group { margin-bottom: 1.2rem; }
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 0.45rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.78rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9px;
+  font-size: 0.92rem;
+  color: white;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-group input::placeholder { color: rgba(255, 255, 255, 0.22); }
+
+.form-group input:focus {
+  border-color: #52b788;
+  background: rgba(82, 183, 136, 0.07);
+}
+
+/* Wrapper mot de passe */
+.password-input-wrapper { position: relative; }
+.password-input-wrapper input { padding-right: 3rem; }
+
+.eye-btn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.eye-btn:hover svg { stroke: #52b788; }
+
+/* Bouton principal */
+.btn-primary {
+  width: 100%;
+  padding: 0.85rem;
+  background: linear-gradient(135deg, #40916c, #2d6a4f);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 6px 18px rgba(45, 106, 79, 0.45);
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(45, 106, 79, 0.55);
+}
+
+.btn-primary:active:not(:disabled) { transform: translateY(0); }
+.btn-primary:disabled { opacity: 0.65; cursor: not-allowed; }
+
+/* ── Responsive ── */
+@media (max-width: 860px) {
+  .page-background { padding: 1rem; }
+
+  .login-box {
+    flex-direction: column;
+    padding: 1.25rem;
+    min-height: auto;
+    max-width: 440px;
+  }
+
+  .login-left { display: none; }
+
+  .login-right { padding: 1.5rem 0.5rem; }
+
+  .mobile-logo { display: flex; }
+}
+
+/* Animation badge */
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.6; transform: scale(1.3); }
+}

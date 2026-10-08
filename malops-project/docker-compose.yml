@@ -1,0 +1,12 @@
+
+
+services:
+  clearml-server:
+    image: allegroai/clearml:latest
+    ports:
+      - "8008:8008"
+      - "8080:8080"
+      - "8083:8081"
+      - "8082:8082"
+    env_file:
+      - .env

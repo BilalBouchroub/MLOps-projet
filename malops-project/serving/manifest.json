@@ -1,0 +1,17 @@
+{
+  "model_name": "RandomForest",
+  "model_path": "/home/bilalbouch/malops-project/serving/model.pkl",
+  "scaler_path": "/home/bilalbouch/malops-project/serving/scaler.pkl",
+  "r2_test": 0.973404,
+  "features": [
+    "NDVI",
+    "NDWI",
+    "MSI",
+    "LST",
+    "Precipitation",
+    "SoilMoisture",
+    "ET0"
+  ],
+  "is_gru": false,
+  "seq_len": 12
+}
