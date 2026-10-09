@@ -56,10 +56,12 @@ Ces écrans présentent la plateforme et permettent aux différents profils de s
 **Rôle :** consulter les prédictions et explorer la répartition du stress hydrique sur la carte, par commune ou par région.
 
 <div align="center">
-  <img src="images/cart%201.png" alt="Carte du stress hydrique à El Jadida — espace client" width="48%" />
+  <img src="images/cart%201.png" alt="Carte du stress hydrique à El Jadida — espace client" width="90%" />
   <p><em>Carte d’El Jadida : résultats CWSI et niveaux de stress par commune.</em></p>
-  <img src="images/cart%202.png" alt="Carte choroplèthe du stress hydrique au Maroc — espace client" width="48%" />
+  <img src="images/cart%202.png" alt="Carte choroplèthe du stress hydrique au Maroc — espace client" width="90%" />
   <p><em>Carte du Maroc : comparaison des niveaux de stress hydrique entre régions.</em></p>
+  <img src="images/dashboard%20user.png" alt="Dashboard qualité des données" width="90%" />
+  <p><em>Dashboard qualité : vue des indicateurs, avertissements et dérives. À noter : la capture affiche le rôle Data Engineer dans le menu latéral.</em></p>
 </div>
 
 ### 🛡️ Espace administrateur
@@ -91,13 +93,13 @@ Ces écrans présentent la plateforme et permettent aux différents profils de s
 **Rôle :** configurer, lancer et suivre le cycle MLOps : validation, entraînement, registre de modèles, serving, monitoring et prédiction.
 
 <div align="center">
-  <img src="images/pipelines%20eng.png" alt="Gestion des pipelines dans l’espace MLops Engineer" width="82%" />
+  <img src="images/pipelines%20eng.png" alt="Gestion des pipelines dans l’espace MLops Engineer" width="90%" />
   <p><em>Pipeline Manager : état des chaînes, étapes disponibles et commandes pour lancer ou configurer un pipeline.</em></p>
-  <img src="images/pipeline%20conf%201.png" alt="Configuration de la phase dataset dans l’orchestrateur" width="48%" />
-  <img src="images/pipeline%20conf%202.png" alt="Configuration de la phase monitoring dans l’orchestrateur" width="48%" />
+  <img src="images/pipeline%20conf%201.png" alt="Configuration de la phase dataset dans l’orchestrateur" width="90%" />
   <p><em>Orchestrator Wizard — Dataset : période, régions géographiques et filtres qualité.</em></p>
+  <img src="images/pipeline%20conf%202.png" alt="Configuration de la phase monitoring dans l’orchestrateur" width="90%" />
   <p><em>Orchestrator Wizard — Monitoring : seuils d’alerte, fréquence de surveillance et période de référence.</em></p>
-  <img src="images/termine%20la%20configuration.png" alt="Résumé de configuration des pipelines avant lancement" width="72%" />
+  <img src="images/termine%20la%20configuration.png" alt="Résumé de configuration des pipelines avant lancement" width="90%" />
   <p><em>Résumé de configuration : paramètres des étapes du pipeline avant son lancement.</em></p>
 </div>
 
