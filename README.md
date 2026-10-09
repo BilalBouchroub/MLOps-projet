@@ -15,7 +15,7 @@
   <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" height="38" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/xgboost.svg" alt="XGBoost" height="38" />&nbsp;&nbsp;
+  <img src="images/XGBoost_logo" height="38" />&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/lightgbm-org/LightGBM/main/docs/logo/LightGBM_logo_no_text.svg" alt="LightGBM" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="38" />&nbsp;&nbsp;
