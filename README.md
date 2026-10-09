@@ -15,12 +15,12 @@
   <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" height="38" />&nbsp;&nbsp;
-  <img src="images/XGBoost_logo" height="38" />&nbsp;&nbsp;
+  <img src="images/XGBoost_logo.svg" height="38" />&nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/lightgbm-org/LightGBM/main/docs/logo/LightGBM_logo_no_text.svg" alt="LightGBM" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="38" />&nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/leaflet/199900" alt="Leaflet" height="38" />&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/clearml.svg" alt="ClearML" height="38" />
+  <img src="images/clearml-logo.webp" height="38" />
 </p>
 
 <sub>Python · FastAPI · React · scikit-learn · PyTorch · XGBoost · LightGBM · PostgreSQL · Docker · Leaflet · ClearML</sub>
