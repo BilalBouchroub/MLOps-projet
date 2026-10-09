@@ -10,16 +10,17 @@
 <br />
 
 <p>
-  <img src="https://cdn.simpleicons.org/python/000000" alt="Python" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/fastapi/000000" alt="FastAPI" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/react/000000" alt="React" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/scikitlearn/000000" alt="scikit-learn" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/pytorch/000000" alt="PyTorch" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/xgboost/000000" alt="XGBoost" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/lightgbm/000000" alt="LightGBM" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/docker/000000" alt="Docker" height="34" />&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/leaflet/000000" alt="Leaflet" height="34" />
+  <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/xgboost.svg" alt="XGBoost" height="38" />&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/lightgbm-org/LightGBM/main/docs/logo/LightGBM_logo_no_text.svg" alt="LightGBM" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/leaflet/199900" alt="Leaflet" height="38" />&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/npm/@thesvg/icons/icons/clearml.svg" alt="ClearML" height="38" />
 </p>
 
 <sub>Python · FastAPI · React · scikit-learn · PyTorch · XGBoost · LightGBM · PostgreSQL · Docker · Leaflet · ClearML</sub>
@@ -191,11 +192,11 @@ xychart-beta
 
 <div align="center">
 
-<img src="https://cdn.simpleicons.org/scikitlearn/000000" alt="scikit-learn" height="28" />&nbsp;
-<img src="https://cdn.simpleicons.org/pytorch/000000" alt="PyTorch" height="28" />&nbsp;
-<img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL" height="28" />&nbsp;
-<img src="https://cdn.simpleicons.org/leaflet/000000" alt="Leaflet" height="28" />&nbsp;
-<img src="https://cdn.simpleicons.org/docker/000000" alt="Docker" height="28" />
+<img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="scikit-learn" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/pytorch/EE4C2C" alt="PyTorch" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/leaflet/199900" alt="Leaflet" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="28" />
 
 </div>
 
