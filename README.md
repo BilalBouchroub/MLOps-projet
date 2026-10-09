@@ -9,11 +9,20 @@
 
 <br />
 
-![Python](https://img.shields.io/badge/Python-ML%20%26%20pipelines-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-interface-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![ClearML](https://img.shields.io/badge/ClearML-tracking-FF6B35?style=for-the-badge)
-![CWSI](https://img.shields.io/badge/Cible-CWSI-2E8B57?style=for-the-badge)
+<p>
+  <img src="https://cdn.simpleicons.org/python/000000" alt="Python" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/fastapi/000000" alt="FastAPI" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/react/000000" alt="React" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/scikitlearn/000000" alt="scikit-learn" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pytorch/000000" alt="PyTorch" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/xgboost/000000" alt="XGBoost" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/lightgbm/000000" alt="LightGBM" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/docker/000000" alt="Docker" height="34" />&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/leaflet/000000" alt="Leaflet" height="34" />
+</p>
+
+<sub>Python · FastAPI · React · scikit-learn · PyTorch · XGBoost · LightGBM · PostgreSQL · Docker · Leaflet · ClearML</sub>
 
 <p><b>De la donnée environnementale à une prédiction exploitable.</b></p>
 
@@ -26,6 +35,86 @@
 MALOPS est une plateforme de suivi et de prédiction du stress hydrique des cultures. Elle réunit une interface web, une API de gestion, des pipelines de données et de modèles, ainsi qu’un service de prédiction CWSI (*Crop Water Stress Index*).
 
 Les scripts travaillent avec des indicateurs tels que **NDVI, NDWI, MSI, LST, précipitations, humidité du sol et ET0**. Le projet inclut des modèles classiques de machine learning et un modèle GRU, avec suivi des expériences via ClearML.
+
+## 🖥️ Galerie des interfaces
+
+J’ai classé les captures d’après les rôles et les écrans visibles dans les images. Les chiffres affichés dans certaines captures sont ceux de l’interface photographiée et ne constituent pas des résultats de référence.
+
+### 🌍 Accueil et connexion
+
+Ces écrans présentent la plateforme et permettent aux différents profils de se connecter.
+
+<div align="center">
+  <img src="images/acceuil.png" alt="Page d’accueil HydroVision" width="82%" />
+  <p><em>Accueil : présentation d’HydroVision et accès à la démonstration ou à la connexion.</em></p>
+  <img src="images/login.png" alt="Connexion à la plateforme" width="82%" />
+  <p><em>Connexion : formulaire d’accès aux espaces selon le compte et son rôle.</em></p>
+</div>
+
+### 👩‍🌾 Espace client / utilisateur final
+
+**Rôle :** consulter les prédictions et explorer la répartition du stress hydrique sur la carte, par commune ou par région.
+
+<div align="center">
+  <img src="images/cart%201.png" alt="Carte du stress hydrique à El Jadida — espace client" width="48%" />
+  <p><em>Carte d’El Jadida : résultats CWSI et niveaux de stress par commune.</em></p>
+  <img src="images/cart%202.png" alt="Carte choroplèthe du stress hydrique au Maroc — espace client" width="48%" />
+  <p><em>Carte du Maroc : comparaison des niveaux de stress hydrique entre régions.</em></p>
+</div>
+
+### 🛡️ Espace administrateur
+
+**Rôle :** superviser la plateforme, administrer les comptes et leurs rôles, et gérer les projets et leurs responsables.
+
+<div align="center">
+  <img src="images/dashboard.png" alt="Tableau de bord administrateur" width="82%" />
+  <p><em>Dashboard admin : indicateurs de la plateforme, comptes, modèles et dernière exécution de pipeline.</em></p>
+  <img src="images/utilisateur.png" alt="Gestion des utilisateurs et des rôles" width="82%" />
+  <p><em>Gestion des utilisateurs : consultation des comptes, de leurs rôles et de leur statut.</em></p>
+  <img src="images/cree%20utilisateur.png" alt="Formulaire d’affectation des responsables d’un projet" width="58%" />
+  <p><em>Gestion de projet : modification du projet et affectation du client, du Data Engineer et du MLOps Engineer responsables.</em></p>
+</div>
+
+### 🧹 Espace Data Engineer
+
+**Rôle :** préparer les jeux de données, régler leur validation et surveiller leur qualité avant l’entraînement des modèles.
+
+<div align="center">
+  <img src="images/data%20enginner.png" alt="Liste des datasets annuels — Data Engineer" width="82%" />
+  <p><em>Dataset Config : liste des fichiers annuels avec leur année, leur taille et les actions disponibles.</em></p>
+  <img src="images/dashboard%20user.png" alt="Tableau de bord qualité des données — Data Engineer" width="82%" />
+  <p><em>Quality Dashboard (dashboard Data Engineer) : score qualité, fichiers analysés, alertes, dérive par variable et qualité par fichier.</em></p>
+</div>
+
+### ⚙️ Espace MLops Engineer
+
+**Rôle :** configurer, lancer et suivre le cycle MLOps : validation, entraînement, registre de modèles, serving, monitoring et prédiction.
+
+<div align="center">
+  <img src="images/pipelines%20eng.png" alt="Gestion des pipelines dans l’espace MLops Engineer" width="82%" />
+  <p><em>Pipeline Manager : état des chaînes, étapes disponibles et commandes pour lancer ou configurer un pipeline.</em></p>
+  <img src="images/pipeline%20conf%201.png" alt="Configuration de la phase dataset dans l’orchestrateur" width="48%" />
+  <img src="images/pipeline%20conf%202.png" alt="Configuration de la phase monitoring dans l’orchestrateur" width="48%" />
+  <p><em>Orchestrator Wizard — Dataset : période, régions géographiques et filtres qualité.</em></p>
+  <p><em>Orchestrator Wizard — Monitoring : seuils d’alerte, fréquence de surveillance et période de référence.</em></p>
+  <img src="images/termine%20la%20configuration.png" alt="Résumé de configuration des pipelines avant lancement" width="72%" />
+  <p><em>Résumé de configuration : paramètres des étapes du pipeline avant son lancement.</em></p>
+</div>
+
+### 🧪 Vues ClearML
+
+**Rôle de ClearML :** suivre les exécutions des pipelines et les artefacts ML associés. Ces écrans sont l’outil de suivi des expériences, pas un espace utilisateur distinct de MALOPS.
+
+<div align="center">
+  <img src="images/pipelines.png" alt="Liste des pipelines dans ClearML" width="82%" />
+  <p><em>ClearML Pipelines : liste des workflows et nombre d’exécutions par statut.</em></p>
+  <img src="images/pipeline%20validation.png" alt="Exécutions du pipeline de validation dans ClearML" width="82%" />
+  <p><em>Validation dans ClearML : historique des exécutions et graphe des étapes de validation.</em></p>
+  <img src="images/pipeline.png" alt="Détail d’une exécution de pipeline ClearML" width="82%" />
+  <p><em>Détail d’une exécution : étapes du pipeline et sortie de la console.</em></p>
+  <img src="images/pipeline%20dataset%20virsionning.png" alt="Versions du dataset dans ClearML" width="82%" />
+  <p><em>Versions du dataset : historique des versions et informations sur les artefacts enregistrés.</em></p>
+</div>
 
 ## 🗺️ Vue d’ensemble
 
@@ -100,11 +189,11 @@ xychart-beta
 
 <div align="center">
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<img src="https://cdn.simpleicons.org/scikitlearn/000000" alt="scikit-learn" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/pytorch/000000" alt="PyTorch" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/postgresql/000000" alt="PostgreSQL" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/leaflet/000000" alt="Leaflet" height="28" />&nbsp;
+<img src="https://cdn.simpleicons.org/docker/000000" alt="Docker" height="28" />
 
 </div>
 
