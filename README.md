@@ -81,7 +81,7 @@ xychart-beta
 |:--|:--|
 | 1990–2019 | Entraînement |
 | 2020–2021 | Validation |
-| 2022–2024 | Test |
+| 2022–2027 | Test |
 
 > Le graphique représente le découpage indiqué par `train.py`, pas une mesure de performance des modèles.
 
